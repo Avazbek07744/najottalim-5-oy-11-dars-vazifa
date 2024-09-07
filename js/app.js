@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .then(data => {
         ui.innerHTML = '';
-        console.log(data);
+        // console.log(data);
         if (data.length) {
             data.slice(0, 50).forEach(elem => {
                 let card = createCard(elem);
