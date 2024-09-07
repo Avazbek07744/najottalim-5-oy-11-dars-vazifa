@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ui.innerHTML = '';
         console.log(data);
         if (data.length) {
-            data.slice(0, 500).forEach(elem => {  // Show only the first 10 items
+            data.slice(0, 50).forEach(elem => {
                 let card = createCard(elem);
                 ui.innerHTML += card;
             });
